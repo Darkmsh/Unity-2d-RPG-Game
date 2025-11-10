@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -271,16 +271,16 @@ MonoBehaviour:
     y: 597
     width: 1554
     height: 336
-  m_MinSize: {x: 231, y: 276}
-  m_MaxSize: {x: 10001, y: 10026}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -386,9 +386,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 94bd0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: e4faffff38b00000
+      m_SelectedIDs: 38b00000
+      m_LastClickedID: 45112
+      m_ExpandedIDs: e4faffff38b0000058b00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1048,9 +1048,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 6.608365, y: 2.0418155, z: 0.06628004}
+    m_Target: {x: 9.373207, y: -2.360324, z: 0.06628004}
     speed: 2
-    m_Value: {x: 6.608365, y: 2.0418155, z: 0.06628004}
+    m_Value: {x: 9.373207, y: -2.360324, z: 0.06628004}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1286,7 +1286,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/scripts/Enemy Attack
+    - Assets/scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1296,15 +1296,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts/Enemy Attack
+  - Assets/scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\my game\actionRPG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 35}
-    m_SelectedIDs: 70b50000
-    m_LastClickedID: 46448
+    m_SelectedIDs: 66b50000
+    m_LastClickedID: 46438
     m_ExpandedIDs: 000000003ab300003cb300003eb3000066b5000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1360,8 +1360,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 40a20000
+    m_LastClickedInstanceID: 41536
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300004c5b0000988700001adb000016d7000000000000e4de000012c800001e1b0100681c01002c1b0100801b01003e1b010024ae000022ae000066b000006eb3000096d2000084c90000e2d5010060d601008e6b010008d80000362f01003436010038360100c84d0100c24d0100c2b2000072450000223801007abd000052b1000094af0000d2b00000e0b00000e2b00000feb00000
     m_RenameOverlay:
@@ -1508,7 +1508,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 270
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

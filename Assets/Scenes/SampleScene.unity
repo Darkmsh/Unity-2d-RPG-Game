@@ -35506,6 +35506,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02834a7daabe0cf4187686b37ae9e898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1335226994}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  detectionPoint: {fileID: 1219195922}
+  findRange: 5
+  speed: 2
 --- !u!1 &1805990101
 GameObject:
   m_ObjectHideFlags: 0
