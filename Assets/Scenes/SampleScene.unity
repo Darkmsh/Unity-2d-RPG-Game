@@ -35511,7 +35511,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   detectionPoint: {fileID: 1219195922}
+  attackPoint: {fileID: 873316560}
   findRange: 5
+  attackRange: 0
   speed: 2
 --- !u!1 &1805990101
 GameObject:
